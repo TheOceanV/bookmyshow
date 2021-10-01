@@ -1,11 +1,16 @@
-import User from "./components/user";
+// import { Route } from "react-router-dom";
+
+// HOC
+import DefaultHOC from "./HOC/Default.HOC";
+
+// Components
+import Temp from "./components/temp";
 
 function App() {
   return (
-  <div>
-    <h1>Users</h1>
-    <User name="Pavan" description="FSWD" />
-  </div>
+  <>
+    <DefaultHOC path="/" exact component={Temp} />
+  </>
   );
 }
 
