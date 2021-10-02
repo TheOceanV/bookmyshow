@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BiChevronRight,
   BiSearch,
   BiMenu,
   BiChevronDown,
