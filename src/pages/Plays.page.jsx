@@ -10,7 +10,7 @@ const Plays = () => {
       <div className="container mx-auto px-4">
         <div className="w-full lg:flex lg:flex-row-reverse">
           <div className="lg:w-3/4">
-            <h2 className="text-2xl font-bold mb-4">Plays in Bengaluru</h2>
+            <h2 className="text-2xl font-bold mb-4">Plays in Delhi NCR</h2>
             <div className="flex flex-wrap ">
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
                 <Poster
